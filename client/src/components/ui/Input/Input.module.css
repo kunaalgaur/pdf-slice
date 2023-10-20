@@ -1,0 +1,25 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#text {
+    color: grey;
+}
+
+#input {
+    background: none;
+    border: 1px solid #85858555;
+    outline: none;
+    height: 30px;
+    padding: 0 5px;
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+#input:focus {
+    border: 1px solid #0055ff;
+    color: #0055ff;
+}
